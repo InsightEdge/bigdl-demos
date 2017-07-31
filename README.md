@@ -8,3 +8,11 @@ Use Insightedge 1.0.0
 
 *runTextClassification.sh* - runs text classification example as spark job. 
 
+
+### Running Image classification example
+
+* Clone and build [forked BigDL project](https://github.com/dgur1n/BigDL/tree/insightedge)
+* Download pre-trained [model](https://d2j0dndfm35trm.cloudfront.net/resnet-18.t7).
+* Download [images](https://drive.google.com/a/gigaspaces.com/file/d/0BwNPwv-ltyVHMGVTbzNrOXRtTnM/view?usp=sharing)
+* Specify path ro model, images and BigDL jar in rumImageClassification.sh
+* run rumImageClassification.sh

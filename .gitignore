@@ -1,0 +1,6 @@
+*.log
+
+.idea/
+test-images*/
+images-101-category
+torch-model-pretrained/
