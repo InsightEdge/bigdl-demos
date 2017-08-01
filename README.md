@@ -15,4 +15,4 @@ Use Insightedge 1.0.0
 * Download pre-trained [model](https://d2j0dndfm35trm.cloudfront.net/resnet-18.t7).
 * Download [images](https://drive.google.com/a/gigaspaces.com/file/d/0BwNPwv-ltyVHMGVTbzNrOXRtTnM/view?usp=sharing)
 * Specify path ro model, images and BigDL jar in rumImageClassification.sh
-* run rumImageClassification.sh
+* run rumImageClassification.sh. Compare with image categories [here](https://github.com/facebook/fb.resnet.torch/blob/master/pretrained/imagenet.lua#L1)
