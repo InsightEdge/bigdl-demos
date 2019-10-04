@@ -24,9 +24,10 @@ If you wish to run the demo on an EC2 instance, you can use the private AMI ami-
 The AMI is a private one that is available in Ireland and Ohio regions (can be easily copied to differnet regions). It is under our SEs AWS account.
 
 Instructions:
-0. Have SSH Key and a Security Group with ports 22, 8080 and 9443 opened.
-1. Start new EC2 Instance / Spot instance(Spotinst) with the relevant AMI. It was tested with t2.2xlarge instance.
-2. After the instance has started, SSH into it and run `supervisorctl start bigdl` . This will start the text classification job and once it finishes (10 mins~), it starts the BigDL WebUI and the long running Job that "listens" for inputs from the BigDL WebUI.
+
+1. Have SSH Key and a Security Group with ports 22, 8080 and 9443 opened. If you are going to use the instance multiple times, an Elastic IP might be useful.
+2. Start new EC2 Instance / Spot instance(Spotinst) with the relevant AMI. It was tested with t2.2xlarge instance.
+3. After the instance has started, SSH into it and run `supervisorctl start bigdl` . This will start the text classification job and once it finishes (10 mins~), it starts the BigDL WebUI and the long running Job that "listens" for inputs from the BigDL WebUI.
 
 You can monitor the progress via Spark Master UI: http://<PUBLIC_IP>:8080/
 The BigDL WebUI will be available at:  https://<PUBLIC_IP>:9443/
