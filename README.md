@@ -32,3 +32,4 @@ Instructions:
 You can monitor the progress via Spark Master UI: http://<PUBLIC_IP>:8080/
 The BigDL WebUI will be available at:  https://<PUBLIC_IP>:9443/
 
+If the long running job has stopped immediatly, reboot the machine and try again.
